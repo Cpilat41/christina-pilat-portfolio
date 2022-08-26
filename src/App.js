@@ -4,7 +4,7 @@ import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 // import Header from "./Components/Header";
-import "styles/App.css";
+import "https://cpilat41.github.io/christina-pilat-portfolio/styles/App.css";
 
 function App() {
   return (
