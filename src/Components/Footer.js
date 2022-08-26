@@ -1,17 +1,14 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import styles from "../styles/contact.module.css";
+import styles from "../styles/footer.module.css";
 import linkedinicon from "../Images/linkedinicon.png";
 import emailicon from "../Images/emailicon.png";
 import instagramicon from "../Images/instagramicon.png";
 import twittericon from "../Images/twittericon.png";
 import facebookicon from "../Images/facebookicon.png";
 
-const Contact = () => {
+const Footer = () => {
   return (
     <div>
-      <Header />
       <div className={styles.topbox}>
         <p className={styles.socialsp}>
           <span>Contact Me!</span>
@@ -51,9 +48,7 @@ const Contact = () => {
         </div>
         <div className={styles.rightBox}>See what I can do!</div>
       </div> */}
-      <Footer />
     </div>
   );
 };
-
-export default Contact;
+export default Footer;

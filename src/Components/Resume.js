@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
 
@@ -191,6 +192,7 @@ const Resume = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
