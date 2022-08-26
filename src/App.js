@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route element={<AboutMe />} path="/" />
           <Route
             element={<AboutMe />}
             exact
