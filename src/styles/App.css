@@ -1,0 +1,11 @@
+.App {
+    /* background-image:url('../Images/watercolorstripes.png'); */
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}

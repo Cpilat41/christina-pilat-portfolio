@@ -1,0 +1,38 @@
+.headercontainer {
+  background-image: url("../Images/flowers2.jpg");
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #feb9c8;
+  box-shadow: 5px 5px 10px #feb9c8;
+}
+ a {
+    text-decoration: none;
+    color: #007944;
+    
+ }
+
+.links {
+  padding: 0 5px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.metext {
+  text-align: center;
+}
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 55px;
+}
+.subtitle {
+  font-size: 22px;
+  color: #007944;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.profiles {
+  padding: 10px;
+}

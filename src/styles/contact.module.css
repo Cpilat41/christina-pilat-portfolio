@@ -1,0 +1,61 @@
+.topbox {
+  font-size: 20px;
+  color: #007944;
+  padding: 20px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20;
+  margin-bottom: 20px;
+  border: 2px solid #f6a7ba;
+  box-shadow: 5px 5px 10px #feb9c8;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  
+}
+
+
+.contactContainer {
+  display: flex;
+}
+
+.leftBox {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #007944;
+  flex: 1;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 10px;
+  border: 2px solid #f6a7ba;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+
+.middleBox {
+  flex: 1;
+  text-align: center;
+  margin-right: 50px;
+  border: 2px solid #f6a7ba;
+  background-color: #feb9c8;
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+
+.icons {
+  text-align: center;
+  height: 50px;
+  padding: 5px;
+}
+
+.rightBox {
+  flex: 1;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 10px;
+  border: 2px solid #f6a7ba;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  padding: 20px 50px;
+}
