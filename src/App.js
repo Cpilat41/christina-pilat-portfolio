@@ -11,7 +11,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route element={<AboutMe />} exact path="/" />
+          <Route
+            element={<AboutMe />}
+            exact
+            path="/christina-pilat-portfolio/"
+          />
           <Route element={<Contact />} path="/Contact" />
           <Route element={<Resume />} path="/Resume" />
         </Routes>
