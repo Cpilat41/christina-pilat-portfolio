@@ -12,25 +12,24 @@
   background-color: #d2f3e0;
   border-radius: 0px 0px 30px 30px;
   width: 325px;
-    height: 800px;
 }
 
 .skillsSpan {
-    font-weight: bold;
+  font-weight: bold;
 }
 .mouse {
-    width: 150px;
+  width: 150px;
 }
 
-.projects, .experience {
+.projects,
+.experience {
   box-shadow: 5px 5px 10px #f6a7ba;
   border: 0.5px dashed #f6a7ba;
   padding: 20px;
   margin-right: 50px;
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .projectsdesc {
   font-style: italic;
 }
-

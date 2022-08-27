@@ -17,11 +17,16 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/christina-pilat-97449542/"
               target="_blank"
-            > 
+              rel="noreferrer"
+            >
               Linkedin |
             </a>
             {"   "}
-            <a href="https://github.com/Cpilat41" target="_blank">
+            <a
+              href="https://github.com/Cpilat41"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </div>

@@ -44,7 +44,7 @@ const Resume = () => {
               Git, GitHub<br></br>
               <br></br>
             </p>
-            <img src={plant} className={styles.mouse} />
+            <img src={plant} className={styles.mouse} alt="plant"/>
             <h3>Other Skills:</h3>
             <p>
               <ul>
@@ -70,6 +70,7 @@ const Resume = () => {
               <a
                 href="https://github.com/RobertsonTanya/Neighborhood-Bartering"
                 target="_blank"
+                rel="noreferrer"
               >
                 Neighborhood-Bartering{" "}
               </a>
@@ -109,6 +110,7 @@ const Resume = () => {
               <a
                 href="https://github.com/Cpilat41/PersonalLibrary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Personal Library
               </a>{" "}
@@ -182,7 +184,11 @@ const Resume = () => {
             </ul>
             <h3>
               Blogger | Co-Founder of{" "}
-              <a href="http://fromunderapalmtree.com/" target="_blank">
+              <a
+                href="http://fromunderapalmtree.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Fromunderapalmtree.com
               </a>{" "}
               | 2016-2018

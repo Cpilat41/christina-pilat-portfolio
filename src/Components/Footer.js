@@ -6,13 +6,12 @@ import instagramicon from "../Images/instagramicon.png";
 import twittericon from "../Images/twittericon.png";
 import facebookicon from "../Images/facebookicon.png";
 
-
 const Footer = () => {
   return (
     <div>
       <div className={styles.topbox}>
         <p className={styles.socialsp}>
-          <span>Contact Me!</span>
+          <h4 className={styles.header}>Contact Me!</h4>
           <br></br>
           <a href="mailto:cpilat41@gmail.com">
             <img src={emailicon} alt="emailicon" className={styles.icons} />
@@ -20,6 +19,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/christina-pilat-97449542/"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             <img
@@ -31,26 +31,26 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/lostinloveanddancing/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={instagramicon} alt="instagram" className={styles.icons} />
           </a>
-          <a href="https://twitter.com/Cpilat41" target="_blank">
+          <a
+            href="https://twitter.com/Cpilat41"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={twittericon} alt="twitter" className={styles.icons} />
           </a>
-          <a href="https://www.facebook.com/cpilat1/" target="_blank">
+          <a
+            href="https://www.facebook.com/cpilat1/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={facebookicon} alt="facebook" className={styles.icons} />
           </a>
         </p>
       </div>
-      {/* <div className={styles.contactContainer}>
-        <div className={styles.leftBox}>Let's Talk Tech</div>
-        <div className={styles.middleBox}>
-          <span>
-            <h2>Socials</h2>
-          </span>
-        </div>
-        <div className={styles.rightBox}>See what I can do!</div>
-      </div> */}
     </div>
   );
 };
