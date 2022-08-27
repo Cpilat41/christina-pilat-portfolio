@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
+import Certificate from "../Components/Documents/CDCert.pdf";
 
 const Resume = () => {
   return (
@@ -10,6 +11,19 @@ const Resume = () => {
       <Header />
       <div className={styles.resumeContainer}>
         <div className={styles.skills}>
+          <div>
+            <h3>Certifications:</h3>
+            <a
+              href="https://www.shecodes.io/certificates/bda2fb5d3fad97ebca7d48ad1db142d5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              SheCodes Certificate
+            </a>{" "}
+            <a href={Certificate} target="_blank" rel="noreferrer">
+              Coding Dojo Certificate
+            </a>
+          </div>
           <h3>Technical Skills:</h3>
           <div>
             <p>
@@ -189,6 +203,7 @@ const Resume = () => {
               Business Management Organizational Leadership Bachelor's Degree |
               St. Pete College - 2014
             </h3>
+            <h4>SheCodes Coding Introduction Course | January 2022</h4>
           </div>
         </div>
       </div>

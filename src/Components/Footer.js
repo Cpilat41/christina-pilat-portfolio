@@ -6,6 +6,7 @@ import instagramicon from "../Images/instagramicon.png";
 import twittericon from "../Images/twittericon.png";
 import facebookicon from "../Images/facebookicon.png";
 
+
 const Footer = () => {
   return (
     <div>
@@ -13,7 +14,9 @@ const Footer = () => {
         <p className={styles.socialsp}>
           <span>Contact Me!</span>
           <br></br>
-          <img src={emailicon} alt="emailicon" className={styles.icons} />
+          <a href="mailto:cpilat41@gmail.com">
+            <img src={emailicon} alt="emailicon" className={styles.icons} />
+          </a>
           <a
             href="https://www.linkedin.com/in/christina-pilat-97449542/"
             target="_blank"
