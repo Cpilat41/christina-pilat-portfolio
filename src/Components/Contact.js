@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/contact.module.css";
-import selfie from "../Images/seflie.jpg";
+import me from "../Images/Weirdme.JPG";
 
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
       <Header />
       <div className={styles.topbox}>
         <div className={styles.selflebox}>
-          <img src={selfie} className={styles.selfie} />
+          <img src={me} className={styles.selfie} />
         </div>
         <div className={styles.socialsp}>
           <h4>My Contact Information</h4>
