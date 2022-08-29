@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christina-pilat-portfolio/static/css/main.ff0af82e.css",
-    "main.js": "/christina-pilat-portfolio/static/js/main.d27aa43c.js",
+    "main.js": "/christina-pilat-portfolio/static/js/main.5b80d96b.js",
     "static/js/787.4a6d3846.chunk.js": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js",
     "static/media/computergirl3.png": "/christina-pilat-portfolio/static/media/computergirl3.dd16878f0c3164a18a04.png",
     "static/media/plant.png": "/christina-pilat-portfolio/static/media/plant.d2da7c1bb20505299272.png",
@@ -16,11 +16,11 @@
     "static/media/twittericon.png": "/christina-pilat-portfolio/static/media/twittericon.4c650232f5fe0866741b.png",
     "index.html": "/christina-pilat-portfolio/index.html",
     "main.ff0af82e.css.map": "/christina-pilat-portfolio/static/css/main.ff0af82e.css.map",
-    "main.d27aa43c.js.map": "/christina-pilat-portfolio/static/js/main.d27aa43c.js.map",
+    "main.5b80d96b.js.map": "/christina-pilat-portfolio/static/js/main.5b80d96b.js.map",
     "787.4a6d3846.chunk.js.map": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff0af82e.css",
-    "static/js/main.d27aa43c.js"
+    "static/js/main.5b80d96b.js"
   ]
 }
