@@ -17,14 +17,8 @@ function App() {
             exact
             path="/christina-pilat-portfolio/"
           />
-          <Route
-            element={<Contact />}
-            path="/christina-pilat-portfolio/Contact"
-          />
-          <Route
-            element={<Resume />}
-            path="/christina-pilat-portfolio/Resume"
-          />
+          <Route element={<Contact />} path="/Contact" />
+          <Route element={<Resume />} path="/Resume" />
         </Routes>
       </BrowserRouter>
     </div>
