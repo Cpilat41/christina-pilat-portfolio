@@ -4,14 +4,13 @@ import Footer from "./Footer";
 import styles from "../styles/contact.module.css";
 import me from "../Images/Weirdme.JPG";
 
-
 const Contact = () => {
   return (
     <div>
       <Header />
       <div className={styles.topbox}>
         <div className={styles.selflebox}>
-          <img src={me} className={styles.selfie} />
+          <img src={me} className={styles.selfie} alt="mephoto" />
         </div>
         <div className={styles.socialsp}>
           <h4>My Contact Information</h4>
