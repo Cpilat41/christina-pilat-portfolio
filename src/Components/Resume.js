@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
+import Certificate from "../Components/Documents/CDCert.pdf";
 
 const Resume = () => {
   return (
@@ -9,6 +11,19 @@ const Resume = () => {
       <Header />
       <div className={styles.resumeContainer}>
         <div className={styles.skills}>
+          <div>
+            <h3>Certifications:</h3>
+            <a
+              href="https://www.shecodes.io/certificates/bda2fb5d3fad97ebca7d48ad1db142d5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              SheCodes Certificate
+            </a>{" "}
+            <a href={Certificate} target="_blank" rel="noreferrer">
+              Coding Dojo Certificate
+            </a>
+          </div>
           <h3>Technical Skills:</h3>
           <div>
             <p>
@@ -29,7 +44,7 @@ const Resume = () => {
               Git, GitHub<br></br>
               <br></br>
             </p>
-            <img src={plant} className={styles.mouse} />
+            <img src={plant} className={styles.mouse} alt="plant"/>
             <h3>Other Skills:</h3>
             <p>
               <ul>
@@ -55,6 +70,7 @@ const Resume = () => {
               <a
                 href="https://github.com/RobertsonTanya/Neighborhood-Bartering"
                 target="_blank"
+                rel="noreferrer"
               >
                 Neighborhood-Bartering{" "}
               </a>
@@ -94,6 +110,7 @@ const Resume = () => {
               <a
                 href="https://github.com/Cpilat41/PersonalLibrary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Personal Library
               </a>{" "}
@@ -167,7 +184,11 @@ const Resume = () => {
             </ul>
             <h3>
               Blogger | Co-Founder of{" "}
-              <a href="http://fromunderapalmtree.com/" target="_blank">
+              <a
+                href="http://fromunderapalmtree.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Fromunderapalmtree.com
               </a>{" "}
               | 2016-2018
@@ -188,9 +209,11 @@ const Resume = () => {
               Business Management Organizational Leadership Bachelor's Degree |
               St. Pete College - 2014
             </h3>
+            <h4>SheCodes Coding Introduction Course | January 2022</h4>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

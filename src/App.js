@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
@@ -12,6 +12,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<AboutMe />} path="/" />
+          <Route
+            element={<AboutMe />}
+            exact
+            path="/christina-pilat-portfolio/"
+          />
           <Route element={<Contact />} path="/Contact" />
           <Route element={<Resume />} path="/Resume" />
         </Routes>
