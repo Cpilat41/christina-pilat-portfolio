@@ -34,7 +34,6 @@ const Projects = () => {
             />
           </a>
         </div>
-
         <div className={styles.grocerySwap}>
           <h3>
             <a
