@@ -1,0 +1,39 @@
+.projectsHeaderContainer {
+  text-align: center;
+  margin: 50px;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  padding: 20px 50px;
+  box-shadow: 5px 5px 10px #f6a7ba;
+}
+
+.projectsContainer {
+  text-align: center;
+  margin: 50px;
+  border: 2px solid #f6a7ba;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  padding: 20px 50px;
+  box-shadow: 5px 5px 10px #f6a7ba;
+}
+
+.abiblio {
+  padding: 20px;
+}
+.abiblioGif {
+  width: 600px;
+}
+
+.grocerySwap {
+  padding: 20px;
+}
+.grocerySwapGif {
+  width: 600px;
+}
+
+.projectsHeader {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.projectTitles {
+  font-family: Helvetica;
+}
