@@ -7,15 +7,15 @@
 .about {
   font-size: 50px;
   color: #007944;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .name {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
   font-style: italic;
 }
 .full {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #007944;
   font-size: 16px;
 }
@@ -29,8 +29,12 @@
   width: 350px;
 }
 
+.firstDesc {
+  font-family: Helvetica, sans-serif;
+}
 
 .description {
+  font-family: Helvetica, sans-serif;
   text-align: center;
   margin: 50px;
   border: 2px solid #f6a7ba;
@@ -53,7 +57,7 @@
 }
 .dojoheader {
   text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 24px;
 }
 

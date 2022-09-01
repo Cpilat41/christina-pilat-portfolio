@@ -20,7 +20,7 @@ const AboutMe = () => {
           <span className={styles.full}>Full Stack Software Developer</span>
           <br></br>
           <hr></hr>
-          <p>
+          <p className={styles.firstDesc}>
             A travel enthusiest with a passion for sustainability, seeking
             beauty in the world of Web Developement
           </p>
