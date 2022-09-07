@@ -20,12 +20,37 @@
 .header {
   padding: 0;
   margin: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .icons {
   text-align: center;
   height: 50px;
-  padding: 5px;
+  margin: 5px;
+
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: inherit;
 }
 
+.icons:hover {
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  box-shadow: 5px 5px 5px #f6a7ba;
+}
 
+.icons:active {
+  transform: translateY(4px);
+}
+
+@keyframes icons {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

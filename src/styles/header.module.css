@@ -6,11 +6,10 @@
   border: 2px solid #feb9c8;
   box-shadow: 5px 5px 10px #feb9c8;
 }
- a {
-    text-decoration: none;
-    color: #007944;
-    
- }
+a {
+  text-decoration: none;
+  color: #007944;
+}
 
 .links {
   padding: 0 5px;

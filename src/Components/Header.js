@@ -7,7 +7,8 @@ const Header = () => {
     <div className={styles.headercontainer}>
       <div className={styles.links}>
         <Link to="/christina-pilat-portfolio/">About Me</Link> |{" "}
-        <Link to="/Contact">Contact</Link> | <Link to="/Resume">Resume</Link> |
+        <Link to="/Contact">Contact</Link> | 
+        <Link to="/Resume">Resume</Link> |
         <Link to="/Projects"> Projects</Link> | 
         <Link to="/Travel"> Travel</Link>
         <div className={styles.metext}>
