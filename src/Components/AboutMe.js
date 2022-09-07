@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import styles from "../styles/aboutMe.module.css";
 import selfie from "../Images/seflie.jpg";
 import computergirl3 from "../Images/computergirl3.png";
-import computergirl2 from "../Images/computer2.png";
 import Certificate from "../Components/Documents/CDCert.pdf";
 
 const AboutMe = () => {

@@ -12,7 +12,6 @@ const Footer = () => {
       <div className={styles.topbox}>
         <p className={styles.socialsp}>
           <h4 className={styles.header}>Contact Me!</h4>
-          <br></br>
           <a href="mailto:cpilat41@gmail.com">
             <img src={emailicon} alt="emailicon" className={styles.icons} />
           </a>

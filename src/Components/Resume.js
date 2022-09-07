@@ -20,7 +20,6 @@ const onButtonClick = () => {
 
 //above code sourced from https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
 
-
 const Resume = () => {
   return (
     <div>
@@ -49,22 +48,23 @@ const Resume = () => {
 
           <div>
             <p>
-              <span className={styles.skillsSpan}>Languages:</span> Javascript,
-              HTML, HTML5, CSS, MERN <br></br>
-              <br></br>
-              <span className={styles.skillsSpan}>
-                Framework/Libraries:
-              </span>{" "}
-              Express, React, Node.JS <br></br>
-              <br></br>
-              <span className={styles.skillsSpan}>Databases:</span> MongoDB
-              <br></br>
-              <br></br>
-              <span className={styles.skillsSpan}>
-                Version Control Systems:
-              </span>{" "}
-              Git, GitHub<br></br>
-              <br></br>
+              <p>
+                <span className={styles.skillsSpan}>Languages:</span>{" "}
+                Javascript, HTML, HTML5, CSS, MERN{" "}
+              </p>
+              <p>
+                <span className={styles.skillsSpan}>Framework/Libraries:</span>{" "}
+                Express, React, Node.JS
+              </p>{" "}
+              <p>
+                <span className={styles.skillsSpan}>Databases:</span> MongoDB
+              </p>
+              <p>
+                <span className={styles.skillsSpan}>
+                  Version Control Systems:
+                </span>{" "}
+                Git, GitHub
+              </p>
               <p>Front-End & Back-End</p>
             </p>
             <img src={plant} className={styles.mouse} alt="plant" />
