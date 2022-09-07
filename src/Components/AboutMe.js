@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/aboutMe.module.css";
@@ -45,6 +46,9 @@ const AboutMe = () => {
             Other interests of mine include 🗺️traveling, 🎺music, 🚶‍♀️hiking,
             🌿nature, 📚fiction.
           </p>
+          <button className={styles.resumeBtn}>
+            <Link to="/resume">See My Resume!</Link>
+          </button>
         </div>
         <div className={styles.codingdojo}>
           <h3 className={styles.dojoheader}>Coding Dojo</h3>
@@ -81,14 +85,6 @@ const AboutMe = () => {
               Coding Dojo Certificate
             </a>
           </p>
-        </div>
-        <div className={styles.travel}>
-          <img
-            src={computergirl2}
-            className={styles.travelcomputer}
-            alt="travelgirlonlaptop"
-          />
-          <h3>Travel Sabatical</h3>
         </div>
       </div>
       <Footer />

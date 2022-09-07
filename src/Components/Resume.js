@@ -1,9 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
 import Certificate from "../Components/Documents/CDCert.pdf";
+
+const onButtonClick = () => {
+  fetch("Christina_Pilat_Resume_2022").then((response) => {
+    response.blob().then((blob) => {
+      const fileURL = window.URL.createObjectURL(blob);
+      let alink = document.createElement("a");
+      alink.href = fileURL;
+      alink.download = "Christina_Pilat_Resume_2022";
+      alink.click();
+    });
+  });
+};
+
+//above code sourced from https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
+
 
 const Resume = () => {
   return (
@@ -11,6 +27,11 @@ const Resume = () => {
       <Header />
       <div className={styles.resumeContainer}>
         <div className={styles.skills}>
+          <div className={styles.button}>
+            <button className={styles.downloadBtn} onClick={onButtonClick}>
+              Download Resume
+            </button>
+          </div>
           <div>
             <h3>Certifications:</h3>
             <a
@@ -25,15 +46,16 @@ const Resume = () => {
             </a>
           </div>
           <h3>Technical Skills:</h3>
+
           <div>
             <p>
               <span className={styles.skillsSpan}>Languages:</span> Javascript,
-              HTML, CSS, MERN <br></br>
+              HTML, HTML5, CSS, MERN <br></br>
               <br></br>
               <span className={styles.skillsSpan}>
                 Framework/Libraries:
               </span>{" "}
-              Express, React <br></br>
+              Express, React, Node.JS <br></br>
               <br></br>
               <span className={styles.skillsSpan}>Databases:</span> MongoDB
               <br></br>
@@ -43,13 +65,16 @@ const Resume = () => {
               </span>{" "}
               Git, GitHub<br></br>
               <br></br>
+              <p>Front-End & Back-End</p>
             </p>
-            <img src={plant} className={styles.mouse} alt="plant"/>
+            <img src={plant} className={styles.mouse} alt="plant" />
             <h3>Other Skills:</h3>
             <p>
               <ul>
                 <li>Microsoft Offfice</li>
+                <li>Wireframing</li>
                 <li>Teamwork</li>
+                <li>Strategic Planning</li>
                 <li>Adaptability</li>
                 <li>Time Management</li>
                 <li>Problem-solving</li>
@@ -66,15 +91,8 @@ const Resume = () => {
             <h2>Technical Projects</h2>
             <hr></hr>
             <h3>
-              GrocerySwap{" "}
-              <a
-                href="https://github.com/RobertsonTanya/Neighborhood-Bartering"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Neighborhood-Bartering{" "}
-              </a>
-              | Group Project | 2022
+              <Link to="/Projects">GrocerySwap Neighborhood-Bartering </Link>|
+              Group Project | 2022
             </h3>
             <span className={styles.projectsdesc}>
               MERN based app for trading local food products to reduce waste and
@@ -106,15 +124,8 @@ const Resume = () => {
               </li>
             </ul>
             <h3>
-              Abiblio Bookshelf{" "}
-              <a
-                href="https://github.com/Cpilat41/PersonalLibrary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Personal Library
-              </a>{" "}
-              | 2022
+              <Link to="/Projects">Abiblio Bookshelf Personal Library</Link> |
+              2022
             </h3>
             <span className={styles.projectsdesc}>
               MERN based app for tracking books you want to read based on how

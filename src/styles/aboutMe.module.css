@@ -47,6 +47,16 @@
   padding: 20px 50px;
 }
 
+.resumeBtn {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #f6a7ba;
+  border: #d2f3e0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+}
+
 .codingdojo {
   margin: 50px;
   border: 2px solid #f6a7ba;

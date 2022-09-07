@@ -17,6 +17,19 @@
 .skillsSpan {
   font-weight: bold;
 }
+
+.downloadBtn {
+  width: 150px;
+  height: 35px;
+  background-color: #a3d4f2;
+  border: 2px solid #f6a7ba;
+  box-shadow: 5px 5px 10px #f6a7ba;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  text-align: center;
+}
 .mouse {
   width: 150px;
 }
