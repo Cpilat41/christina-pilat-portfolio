@@ -1,0 +1,12 @@
+.travel {
+  text-align: center;
+  margin: 50px;
+  border: 2px dotted #f6a7ba;
+  background-color: #d2f3e0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px #f6a7ba;
+}
+.travelcomputer {
+  height: 200px;
+}

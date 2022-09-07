@@ -6,12 +6,32 @@ import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
 import Certificate from "../Components/Documents/CDCert.pdf";
 
+const onButtonClick = () => {
+  fetch("Christina_Pilat_Resume_2022").then((response) => {
+    response.blob().then((blob) => {
+      const fileURL = window.URL.createObjectURL(blob);
+      let alink = document.createElement("a");
+      alink.href = fileURL;
+      alink.download = "Christina_Pilat_Resume_2022";
+      alink.click();
+    });
+  });
+};
+
+//above code sourced from https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
+
+
 const Resume = () => {
   return (
     <div>
       <Header />
       <div className={styles.resumeContainer}>
         <div className={styles.skills}>
+          <div className={styles.button}>
+            <button className={styles.downloadBtn} onClick={onButtonClick}>
+              Download Resume
+            </button>
+          </div>
           <div>
             <h3>Certifications:</h3>
             <a
@@ -52,6 +72,7 @@ const Resume = () => {
             <p>
               <ul>
                 <li>Microsoft Offfice</li>
+                <li>Wireframing</li>
                 <li>Teamwork</li>
                 <li>Strategic Planning</li>
                 <li>Adaptability</li>

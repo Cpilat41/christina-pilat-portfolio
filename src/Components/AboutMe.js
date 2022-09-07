@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import styles from "../styles/aboutMe.module.css";
@@ -45,6 +46,9 @@ const AboutMe = () => {
             Other interests of mine include 🗺️traveling, 🎺music, 🚶‍♀️hiking,
             🌿nature, 📚fiction.
           </p>
+          <button className={styles.resumeBtn}>
+            <Link to="/resume">See My Resume!</Link>
+          </button>
         </div>
         <div className={styles.codingdojo}>
           <h3 className={styles.dojoheader}>Coding Dojo</h3>
@@ -80,31 +84,6 @@ const AboutMe = () => {
             <a href={Certificate} target="_blank" rel="noreferrer">
               Coding Dojo Certificate
             </a>
-          </p>
-        </div>
-        <div className={styles.travel}>
-          <img
-            src={computergirl2}
-            className={styles.travelcomputer}
-            alt="travelgirlonlaptop"
-          />
-          <h3>Travel Sabatical</h3>
-          <p className={styles.travelS}>
-            <p>
-              In January of 2018, a month after our wedding, my husband and I bought a 2003 Dodge Ram Van and began a 3 month 
-              process of gutting and rebuilding it into our new home.
-            </p>
-            <p>
-              In May, we started living in our van full time and began traveling accross the United States. We started in Florda, our home state.
-              And slowly made our way up the east coast all the way to Portland, Maine. 
-              Amid our escapaids of exploring the outdoors and historical cities we visited friends along the way. 
-              Friends in Washington D.C., Philedalphia, Massachusettes, New York, and Vermont.
-              </p>
-              <p>
-                After about 2 months on the road we made our back to Florida, after traveling more through the middle of the states.
-                Making stops in Michigan to see my family, Kentucky, and even Indiana for a spontanious concert, we eventually made it back to Florida. 
-              </p>
-
           </p>
         </div>
       </div>

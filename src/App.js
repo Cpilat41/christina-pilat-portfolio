@@ -4,6 +4,7 @@ import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
+import Travel from "./Components/Travel";
 // import Header from "./Components/Header";
 import "./styles/App.css";
 
@@ -21,6 +22,7 @@ function App() {
           <Route element={<Contact />} path="/Contact" />
           <Route element={<Resume />} path="/Resume" />
           <Route element={<Projects />} path="/Projects" />
+          <Route element={<Travel />} path="/Travel" />
         </Routes>
       </BrowserRouter>
     </div>
