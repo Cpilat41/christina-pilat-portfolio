@@ -5,6 +5,8 @@
 } */
 
 .about {
+  padding: 0;
+  margin: 0;
   font-size: 50px;
   color: #007944;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -13,6 +15,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
   font-style: italic;
+  margin: 5px;
 }
 .full {
   font-family: Helvetica, sans-serif;

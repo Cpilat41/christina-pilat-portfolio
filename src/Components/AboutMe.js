@@ -14,12 +14,11 @@ const AboutMe = () => {
       <Header />
       <div>
         <div className={styles.description}>
-          <span className={styles.about}>A Little Bit About Me</span>
-          <br></br>
-          <span className={styles.name}>Christina Pilat</span>
-          <br></br>
-          <span className={styles.full}>Full Stack Software Developer</span>
-          <br></br>
+          <p>
+            <p className={styles.about}>A Little Bit About Me</p>
+            <p className={styles.name}>Christina Pilat</p>
+            <p className={styles.full}>Full Stack Software Developer</p>
+          </p>
           <hr></hr>
           <p className={styles.firstDesc}>
             A travel enthusiest with a passion for sustainability, seeking
@@ -30,21 +29,21 @@ const AboutMe = () => {
             As a creative person I've spent a lot of time making things with my
             hands - painting, building, crochet, writing, etc.. But there's
             something uniquely fun and creative about Web Developement.{" "}
-            <br></br>
             <img
               src={computergirl3}
               className={styles.computergirl3}
               alt="girloncomputer"
             />
-            <br></br>
-            I've also spent a lot of time working in various aspects of customer
-            service and while that can very rewarding my biggest passion in life
-            is sustainability. My goal is devote my skills to a cause rooted in
-            sustainability values.
-            <br></br>
-            <br></br>
-            Other interests of mine include 🗺️traveling, 🎺music, 🚶‍♀️hiking,
-            🌿nature, 📚fiction.
+            <p>
+              I've also spent a lot of time working in various aspects of
+              customer service and while that can very rewarding my biggest
+              passion in life is sustainability. My goal is devote my skills to
+              a cause rooted in sustainability values.
+            </p>
+            <p>
+              Other interests of mine include 🗺️traveling, 🎺music, 🚶‍♀️hiking,
+              🌿nature, 📚fiction.
+            </p>
           </p>
           <button className={styles.resumeBtn}>
             <Link to="/resume">See My Resume!</Link>
