@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/christina-pilat-portfolio/static/css/main.a76391ac.css",
-    "main.js": "/christina-pilat-portfolio/static/js/main.e7fd67a8.js",
+    "main.css": "/christina-pilat-portfolio/static/css/main.2477f4a3.css",
+    "main.js": "/christina-pilat-portfolio/static/js/main.b1be5270.js",
     "static/js/787.4a6d3846.chunk.js": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js",
     "static/media/Grocery-Swap.gif": "/christina-pilat-portfolio/static/media/Grocery-Swap.a13bb5b92db6dd7514ed.gif",
     "static/media/Abiblio-Bookshelf.gif": "/christina-pilat-portfolio/static/media/Abiblio-Bookshelf.99305f5d48a7656a1383.gif",
@@ -17,12 +17,12 @@
     "static/media/linkedinicon.png": "/christina-pilat-portfolio/static/media/linkedinicon.29f2b5ffdf8ae6acb1f3.png",
     "static/media/twittericon.png": "/christina-pilat-portfolio/static/media/twittericon.4c650232f5fe0866741b.png",
     "index.html": "/christina-pilat-portfolio/index.html",
-    "main.a76391ac.css.map": "/christina-pilat-portfolio/static/css/main.a76391ac.css.map",
-    "main.e7fd67a8.js.map": "/christina-pilat-portfolio/static/js/main.e7fd67a8.js.map",
+    "main.2477f4a3.css.map": "/christina-pilat-portfolio/static/css/main.2477f4a3.css.map",
+    "main.b1be5270.js.map": "/christina-pilat-portfolio/static/js/main.b1be5270.js.map",
     "787.4a6d3846.chunk.js.map": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a76391ac.css",
-    "static/js/main.e7fd67a8.js"
+    "static/css/main.2477f4a3.css",
+    "static/js/main.b1be5270.js"
   ]
 }
