@@ -5,20 +5,8 @@ import Footer from "./Footer";
 import styles from "../styles/resume.module.css";
 import plant from "../Images/plant.png";
 import Certificate from "../Components/Documents/CDCert.pdf";
+import CPResume from "../Components/Documents/Christina_Pilat_Resume_2022.pdf";
 
-const onButtonClick = () => {
-  fetch("Christina_Pilat_Resume_2022").then((response) => {
-    response.blob().then((blob) => {
-      const fileURL = window.URL.createObjectURL(blob);
-      let alink = document.createElement("a");
-      alink.href = fileURL;
-      alink.download = "Christina_Pilat_Resume_2022";
-      alink.click();
-    });
-  });
-};
-
-//above code sourced from https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
 
 const Resume = () => {
   return (
@@ -27,8 +15,10 @@ const Resume = () => {
       <div className={styles.resumeContainer}>
         <div className={styles.skills}>
           <div className={styles.button}>
-            <button className={styles.downloadBtn} onClick={onButtonClick}>
-              Download Resume
+            <button className={styles.downloadBtn}>
+              <a href={CPResume} target="_blank" rel="noreferrer">
+                Download Resume
+              </a>
             </button>
           </div>
           <div>
