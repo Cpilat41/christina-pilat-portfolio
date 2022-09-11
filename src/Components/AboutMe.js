@@ -28,11 +28,13 @@ const AboutMe = () => {
             As a creative person I've spent a lot of time making things with my
             hands - painting, building, crochet, writing, etc.. But there's
             something uniquely fun and creative about Web Developement.{" "}
-            <img
-              src={computergirl3}
-              className={styles.computergirl3}
-              alt="girloncomputer"
-            />
+            <p>
+              <img
+                src={computergirl3}
+                className={styles.computergirl3}
+                alt="girloncomputer"
+              />
+            </p>
             <p>
               I've also spent a lot of time working in various aspects of
               customer service and while that can very rewarding my biggest
