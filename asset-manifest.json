@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christina-pilat-portfolio/static/css/main.2477f4a3.css",
-    "main.js": "/christina-pilat-portfolio/static/js/main.b1be5270.js",
+    "main.js": "/christina-pilat-portfolio/static/js/main.33fe6477.js",
     "static/js/787.4a6d3846.chunk.js": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js",
     "static/media/Grocery-Swap.gif": "/christina-pilat-portfolio/static/media/Grocery-Swap.a13bb5b92db6dd7514ed.gif",
     "static/media/Abiblio-Bookshelf.gif": "/christina-pilat-portfolio/static/media/Abiblio-Bookshelf.99305f5d48a7656a1383.gif",
@@ -12,17 +12,18 @@
     "static/media/Weirdme.JPG": "/christina-pilat-portfolio/static/media/Weirdme.30d50a5aed3337ec4149.JPG",
     "static/media/flowers2.jpg": "/christina-pilat-portfolio/static/media/flowers2.8cbbc111eb568b40737c.jpg",
     "static/media/seflie.jpg": "/christina-pilat-portfolio/static/media/seflie.a0ef66ff710ef8164ca1.jpg",
+    "static/media/Christina_Pilat_Resume_2022.pdf": "/christina-pilat-portfolio/static/media/Christina_Pilat_Resume_2022.fba77cf5a0f187bc4ecb.pdf",
     "static/media/instagramicon.png": "/christina-pilat-portfolio/static/media/instagramicon.fa10889e46b608cb4a03.png",
     "static/media/emailicon.png": "/christina-pilat-portfolio/static/media/emailicon.41e4440f37eda8c81833.png",
     "static/media/linkedinicon.png": "/christina-pilat-portfolio/static/media/linkedinicon.29f2b5ffdf8ae6acb1f3.png",
     "static/media/twittericon.png": "/christina-pilat-portfolio/static/media/twittericon.4c650232f5fe0866741b.png",
     "index.html": "/christina-pilat-portfolio/index.html",
     "main.2477f4a3.css.map": "/christina-pilat-portfolio/static/css/main.2477f4a3.css.map",
-    "main.b1be5270.js.map": "/christina-pilat-portfolio/static/js/main.b1be5270.js.map",
+    "main.33fe6477.js.map": "/christina-pilat-portfolio/static/js/main.33fe6477.js.map",
     "787.4a6d3846.chunk.js.map": "/christina-pilat-portfolio/static/js/787.4a6d3846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2477f4a3.css",
-    "static/js/main.b1be5270.js"
+    "static/js/main.33fe6477.js"
   ]
 }
