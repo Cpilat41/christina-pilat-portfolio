@@ -25,9 +25,20 @@ const AboutMe = () => {
           </p>
           <img src={selfie} className={styles.me} alt="me" />
           <p className={styles.desc}>
-            As a creative person I've spent a lot of time making things with my
-            hands - painting, building, crochet, writing, etc.. But there's
-            something uniquely fun and creative about Web Developement.{" "}
+            <p>
+              Sustainability is a huge reason why I decided to pivot my career
+              into the tech field, hoping to channel my skills as a developer
+              into making a difference for a better future.
+            </p>
+            <p>
+              As a creative person, I've spent of alot of time making things
+              with my hands - painting, building, crocheting, writing - however,
+              there is something unique about Web Developement that allows me to
+              be creative in a different way. I believe there is an art or
+              finese to coding that creates an insatiable need to learn and keep
+              growing. That is what also drew me to coding - the knowledge that
+              there is always more to learn. And I'm excited to experience it.{" "}
+            </p>
             <p>
               <img
                 src={computergirl3}
